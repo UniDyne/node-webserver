@@ -1,0 +1,21 @@
+{
+	"name": "node-webserver",
+	"version": "0.0.1",
+	"description": "A simple, lightweight webserver.",
+	"main": "main.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/unidyne/node-webserver.git"
+	},
+	"keywords": [
+		"SQL",
+		"Tedious"
+	],
+	"author": "D. Oliver Brown <unidyne AT gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/unidyne/node-webserver/issues"
+	},
+	"homepage": "https://github.com/unidyne/node-webserver#readme",
+	"dependencies": {}
+}
