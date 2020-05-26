@@ -2,7 +2,10 @@
 	"name": "node-webserver",
 	"version": "0.0.1",
 	"description": "A simple, lightweight webserver.",
-	"main": "main.js",
+    "main": "index.js",
+    "scripts": {
+        "test": "main.js"
+    },
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/unidyne/node-webserver.git"
