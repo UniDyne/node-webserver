@@ -1,0 +1,20 @@
+{
+    "__address": "127.0.0.1",
+    "port": 8801,
+
+    "rootpath": "../www",
+    "mimetypes": "mimetypes.json",
+
+    "auth": {
+        "realm": "server"
+    },
+
+    "virtual_paths": [
+        { "virtual": "temp", "actual": "temp" }
+    ],
+
+    "extensions": [
+        { "extension": "./NinjaExtension", "config": {} },
+        { "extension": "./BrowseExtension", "config": {} }
+    ]
+}
