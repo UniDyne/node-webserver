@@ -1,2 +1,4 @@
 
-module.exports.WebServer = require("./lib/WebServer");
+const {WebServer} = require("./lib/WebServer");
+
+module.exports.WebServer = WebServer;
